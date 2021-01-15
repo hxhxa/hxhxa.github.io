@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>第一天——Java准备基础知识</title>
+    <link href="/2021/01/14/%E7%AC%AC%E4%B8%80%E5%A4%A9%E2%80%94%E2%80%94Java%E5%87%86%E5%A4%87%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <url>/2021/01/14/%E7%AC%AC%E4%B8%80%E5%A4%A9%E2%80%94%E2%80%94Java%E5%87%86%E5%A4%87%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>
+    
+    <content type="html"><![CDATA[<p>[TOC]</p><p>第一天，安装了环境和编译器</p><h1 id="关于Java环境基础了解"><a href="#关于Java环境基础了解" class="headerlink" title="关于Java环境基础了解"></a>关于Java环境基础了解</h1><h2 id="关于Java"><a href="#关于Java" class="headerlink" title="关于Java"></a>关于Java</h2><p>Java是一门面向对象的程序设计语言</p><p>JDK版本是8.0</p><p>Java SE，Java标准版（桌面程序）；Java EE，Java企业版（Web程序）；Java ME，Java微型版（移动设备）</p><h2 id="关于JVM"><a href="#关于JVM" class="headerlink" title="关于JVM"></a>关于JVM</h2><p>Java Virtual Machine，Java虚拟机</p><p>实现Java平台无关性的关键</p><h2 id="关于JDK"><a href="#关于JDK" class="headerlink" title="关于JDK"></a>关于JDK</h2><p>Java development Kit，Java语言的软件开发工具包</p><p>由javac和Java组成（javac，编译器将原程序转化为字节码；Java，运行编译后的Java程序，后缀为.class）</p><h2 id="关于JRE"><a href="#关于JRE" class="headerlink" title="关于JRE"></a>关于JRE</h2><p>Java Runtime Environment = vm(java虚拟机) + Java核心类库 + 支持文件</p><p>JDK面向开发人员（开发Java软件要用），JRE面向使用人员（使用Java软件要用）</p><p>JVM&lt;JRE&lt;JDK(包含关系)</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>back-end</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>java入门</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>hexo+GitHub搭建个人博客页面</title>
     <link href="/2021/01/12/hexo-GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%A1%B5%E9%9D%A2/"/>
     <url>/2021/01/12/hexo-GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%A1%B5%E9%9D%A2/</url>
