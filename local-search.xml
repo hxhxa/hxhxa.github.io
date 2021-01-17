@@ -4,11 +4,36 @@
   
   
   <entry>
+    <title>第二天——Java语言概述</title>
+    <link href="/2021/01/16/%E7%AC%AC%E4%BA%8C%E5%A4%A9%E2%80%94%E2%80%94Java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/"/>
+    <url>/2021/01/16/%E7%AC%AC%E4%BA%8C%E5%A4%A9%E2%80%94%E2%80%94Java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/</url>
+    
+    <content type="html"><![CDATA[<p>[TOC]</p><p><img src="C:\Users\贺昕贺昕贺昕呀\Desktop\IMG_2901.PNG" alt="IMG_2901"></p><h1 id="一、软件开发介绍"><a href="#一、软件开发介绍" class="headerlink" title="一、软件开发介绍"></a>一、软件开发介绍</h1><h2 id="一）介绍"><a href="#一）介绍" class="headerlink" title="一）介绍"></a>一）介绍</h2><h3 id="1-软件，一系列按照特定顺序组织计算机数据和指令的集合。系统软件-应用软件"><a href="#1-软件，一系列按照特定顺序组织计算机数据和指令的集合。系统软件-应用软件" class="headerlink" title="1.软件，一系列按照特定顺序组织计算机数据和指令的集合。系统软件+应用软件"></a>1.软件，一系列按照特定顺序组织计算机数据和指令的集合。系统软件+应用软件</h3><h3 id="2-人机交互方式"><a href="#2-人机交互方式" class="headerlink" title="2.人机交互方式"></a>2.人机交互方式</h3><p>图形化界面GUI，graphical user interfaces</p><p>命令行方式CLI，command line interface</p><h3 id="3-program-algorithms-data-structuress"><a href="#3-program-algorithms-data-structuress" class="headerlink" title="3.program = algorithms + data structuress"></a>3.program = algorithms + data structuress</h3><h3 id="4-注，常见DOS指令"><a href="#4-注，常见DOS指令" class="headerlink" title="4.注，常见DOS指令"></a>4.注，常见DOS指令</h3><p>dir：列出当前目录下的文件以及文件夹</p><p>md：创建目录</p><p>rd：删除目录</p><p>cd：进入指定目录</p><p>cd..：退回到上一级目录</p><p>cd\：退回到根目录</p><p>del：删除文件</p><p>exit：推出dos命令</p><h2 id="二）计算机编程语言介绍"><a href="#二）计算机编程语言介绍" class="headerlink" title="二）计算机编程语言介绍"></a>二）计算机编程语言介绍</h2><h3 id="1-语言更新"><a href="#1-语言更新" class="headerlink" title="1.语言更新"></a>1.语言更新</h3><p>第一代语言，机器语言。指令以二进制代码形式存在</p><p>第二代语言，汇编语言。使用助记符表示一条机器指令</p><p>第三代语言，高级语言。c，面向对象。c++，面向过程/面向对象。java跨平台的纯面向对象的语言。.net跨语言的平台。python</p><h3 id="2-Java"><a href="#2-Java" class="headerlink" title="2.Java"></a>2.Java</h3><p>发展前景很好，目前占比很大</p><h2 id="三）Java语言概述"><a href="#三）Java语言概述" class="headerlink" title="三）Java语言概述"></a>三）Java语言概述</h2><h3 id="1-Java历史"><a href="#1-Java历史" class="headerlink" title="1.Java历史"></a>1.Java历史</h3><p>sun公司推出（斯坦福大学网络公司）。面向Internet的编程语言。web应用程序开发首选语言</p><p>后台开发：Java、php、python、go、node.js</p><h3 id="2-Java在各个领域的应用"><a href="#2-Java在各个领域的应用" class="headerlink" title="2.Java在各个领域的应用"></a>2.Java在各个领域的应用</h3><p>企业及平台（主）</p><p>Android平台应用（主）</p><p>大数据平台开发（主）</p><p>移动领域应用</p><h3 id="3-Java语言的诞生"><a href="#3-Java语言的诞生" class="headerlink" title="3.Java语言的诞生"></a>3.Java语言的诞生</h3><p>纯粹的面向对象</p><p>舍弃了C容易引起错误的指针</p><p>增加了垃圾回收器功能</p><h2 id="四）Java程序运行机制及运行过程"><a href="#四）Java程序运行机制及运行过程" class="headerlink" title="四）Java程序运行机制及运行过程"></a>四）Java程序运行机制及运行过程</h2><h3 id="1-Java语言的特点"><a href="#1-Java语言的特点" class="headerlink" title="1.Java语言的特点"></a>1.Java语言的特点</h3><p>面向对象（类+对象；封装+继承+多态）</p><p>健壮性（没有指针之类的）</p><p>跨平台性（不同平台都可以运行，write once，run anywhere，因为有JVM）</p><h3 id="2-Java的核心机制"><a href="#2-Java的核心机制" class="headerlink" title="2.Java的核心机制"></a>2.Java的核心机制</h3><p>Java虚拟机（Jvm）</p><p>垃圾收集机制（自动执行，程序员无法精确控制和干预。也会出现内存泄漏和内存溢出等问题）</p><h3 id="3-注释（comment）"><a href="#3-注释（comment）" class="headerlink" title="3.注释（comment）"></a>3.注释（comment）</h3><p>（注释和注解不一样，①一定要加注释，否则过一段时间自己的也不会了②调试所写的代码）</p><h4 id="单行注释"><a href="#单行注释" class="headerlink" title="单行注释"></a>单行注释</h4><p>//</p><h4 id="多行注释"><a href="#多行注释" class="headerlink" title="多行注释"></a>多行注释</h4><p>/*   */      弹幕说每一行之前都要加一个星号</p><p>多行注释不可以嵌套使用</p><p>但是多行里边可以加单行，虽然没有什么用</p><h4 id="文档注释-java所特有"><a href="#文档注释-java所特有" class="headerlink" title="文档注释 (java所特有)"></a>文档注释 (java所特有)</h4><p>/**          @author 指定Java程序的作者  @version  指定源文件的版本            */  </p><p>文档注释内容可以被jdk提供的工具javadc所解析，可以形成一个网页用来浏览。</p><h2 id="五）Java-API文档"><a href="#五）Java-API文档" class="headerlink" title="五）Java API文档"></a>五）Java API文档</h2><p>就是字典的意思</p><h1 id="二、第一个Java程序总结"><a href="#二、第一个Java程序总结" class="headerlink" title="二、第一个Java程序总结"></a>二、第一个Java程序总结</h1><h2 id="一）Java程序编写-编译-运行的结果"><a href="#一）Java程序编写-编译-运行的结果" class="headerlink" title="一）Java程序编写-编译-运行的结果"></a>一）Java程序编写-编译-运行的结果</h2><p>编写：我们将编写的Java代码保存在以“.java”结尾的源文件中</p><p>编译：使用javac.exe命令编译我们的Java源文件</p><p>运行：使用java.exe命令解释运行我们的字节码文件</p><h2 id="二）编写过程"><a href="#二）编写过程" class="headerlink" title="二）编写过程"></a>二）编写过程</h2><h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3><p>在一个java源文件中可以有多个类，但是只能最多有一个类的声明 为public</p><p>要求声明为public的类的类名必须与源文件同名</p><h3 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h3><p>程序的入口是main（）方法。格式是固定的</p><h3 id="4-输出语句"><a href="#4-输出语句" class="headerlink" title="4.输出语句"></a>4.输出语句</h3><p>syetem.out.println()换行，先输出数据后换行</p><p>syetem.out.print()不换行，只输出数据，不换行</p><h3 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h3><p>每一次的执行语句都以；结束</p><h3 id="6"><a href="#6" class="headerlink" title="6."></a>6.</h3><p>使用tab进行缩进</p><h2 id="三）编译过程"><a href="#三）编译过程" class="headerlink" title="三）编译过程"></a>三）编译过程</h2><p>编译以后，会生成一个或多个字节码文件。字节码文件（.class）的文件名与Java源文件(.java)中的类名相同</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>back-end</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>java入门</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>第一天——Java准备基础知识</title>
     <link href="/2021/01/14/%E7%AC%AC%E4%B8%80%E5%A4%A9%E2%80%94%E2%80%94Java%E5%87%86%E5%A4%87%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
     <url>/2021/01/14/%E7%AC%AC%E4%B8%80%E5%A4%A9%E2%80%94%E2%80%94Java%E5%87%86%E5%A4%87%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>
     
-    <content type="html"><![CDATA[<p>[TOC]</p><p>第一天，安装了环境和编译器</p><h1 id="关于Java环境基础了解"><a href="#关于Java环境基础了解" class="headerlink" title="关于Java环境基础了解"></a>关于Java环境基础了解</h1><h2 id="关于Java"><a href="#关于Java" class="headerlink" title="关于Java"></a>关于Java</h2><p>Java是一门面向对象的程序设计语言</p><p>JDK版本是8.0</p><p>Java SE，Java标准版（桌面程序）；Java EE，Java企业版（Web程序）；Java ME，Java微型版（移动设备）</p><h2 id="关于JVM"><a href="#关于JVM" class="headerlink" title="关于JVM"></a>关于JVM</h2><p>Java Virtual Machine，Java虚拟机</p><p>实现Java平台无关性的关键</p><h2 id="关于JDK"><a href="#关于JDK" class="headerlink" title="关于JDK"></a>关于JDK</h2><p>Java development Kit，Java语言的软件开发工具包</p><p>由javac和Java组成（javac，编译器将原程序转化为字节码；Java，运行编译后的Java程序，后缀为.class）</p><h2 id="关于JRE"><a href="#关于JRE" class="headerlink" title="关于JRE"></a>关于JRE</h2><p>Java Runtime Environment = vm(java虚拟机) + Java核心类库 + 支持文件</p><p>JDK面向开发人员（开发Java软件要用），JRE面向使用人员（使用Java软件要用）</p><p>JVM&lt;JRE&lt;JDK(包含关系)</p>]]></content>
+    <content type="html"><![CDATA[<p>[TOC]</p><p>第一天，安装了环境和编译器</p><h1 id="关于Java环境基础了解"><a href="#关于Java环境基础了解" class="headerlink" title="关于Java环境基础了解"></a>关于Java环境基础了解</h1><h2 id="关于Java"><a href="#关于Java" class="headerlink" title="关于Java"></a>关于Java</h2><p>Java是一门面向对象的程序设计语言</p><p>JDK版本是8.0</p><p>Java SE，Java标准版（桌面程序）；Java EE，Java企业版（Web程序）；Java ME，Java微型版（移动设备）；Java Card（Java小程序在小内存设备上的平台）</p><h2 id="关于JVM"><a href="#关于JVM" class="headerlink" title="关于JVM"></a>关于JVM</h2><p>Java Virtual Machine，Java虚拟机</p><p>实现Java平台无关性的关键</p><h2 id="关于JDK"><a href="#关于JDK" class="headerlink" title="关于JDK"></a>关于JDK</h2><p>Java development Kit，Java语言的软件开发工具包</p><p>由javac和Java组成（javac，编译器将原程序转化为字节码；Java，运行编译后的Java程序，后缀为.class）</p><h2 id="关于JRE"><a href="#关于JRE" class="headerlink" title="关于JRE"></a>关于JRE</h2><p>Java Runtime Environment = vm(java虚拟机) + Java核心类库 + 支持文件</p><p>JDK面向开发人员（开发Java软件要用），JRE面向使用人员（使用Java软件要用）</p><p>JVM&lt;JRE&lt;JDK(包含关系)</p>]]></content>
     
     
     <categories>
