@@ -189,7 +189,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      930 字
+      2.6k 字
     </span>
   
 
@@ -199,7 +199,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      10
+      28
        分钟
     </span>
   
@@ -241,7 +241,7 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：2021年1月17日 晚上
+                  本文最后更新于：2021年1月21日 晚上
                 
               </p>
             
@@ -458,10 +458,120 @@
 </tbody></table>
 <h2 id="二）保留字（reserve-word）"><a href="#二）保留字（reserve-word）" class="headerlink" title="二）保留字（reserve word）"></a>二）保留字（reserve word）</h2><p>现有Java版本尚未使用，以后版本可能会作为关键字使用。</p>
 <p>用自己命名标识符时要注意避开使用这些</p>
-<p>二、标识符identifier</p>
-<p>一）标识符</p>
-<p>Java对各种变量、方法、类等要素命名时使用的字符序列成为标识符</p>
-<p>凡是可以自己起名的地方都叫标识符</p>
+<h1 id="二、标识符identifier"><a href="#二、标识符identifier" class="headerlink" title="二、标识符identifier"></a>二、标识符identifier</h1><h2 id="一）标识符"><a href="#一）标识符" class="headerlink" title="一）标识符"></a>一）标识符</h2><p>Java对各种变量、方法、类等要素命名时使用的字符序列成为标识符</p>
+<p>凡是可以自己起名的地方都叫标识符，比如，类名、变量名、方法名、接口名、包名</p>
+<h2 id="二-标识符的规则"><a href="#二-标识符的规则" class="headerlink" title="二)标识符的规则"></a>二)标识符的规则</h2><ul>
+<li>26个英文大小写，0-9，_，$</li>
+<li>不能用数字开头</li>
+<li>不能使用关键字和保留字，但是可以包含</li>
+<li>严格区分大小写</li>
+<li>不能包含空格</li>
+</ul>
+<h2 id="三）标识符命名规范"><a href="#三）标识符命名规范" class="headerlink" title="三）标识符命名规范"></a>三）标识符命名规范</h2><p>包名：多单词组成时所有字母小写</p>
+<p>类名、接口名：多单词组成时所有单词的首字母大写</p>
+<p>变量名、方法名：多字母组成时，第一个单词的首字母小写，第二个单词开始每个单词首字母大写</p>
+<p>常量名：所有字母大写 ，多单词时每个单词用下划线连接</p>
+<h2 id="四）注意"><a href="#四）注意" class="headerlink" title="四）注意"></a>四）注意</h2><p>在起名字时，为了提高阅读性，尽量要有意义</p>
+<p>Java采用unicode字符集，标识符可以用汉字声明，但是不啊建议</p>
+<h1 id="三、变量"><a href="#三、变量" class="headerlink" title="三、变量"></a>三、变量</h1><h2 id="一）概念"><a href="#一）概念" class="headerlink" title="一）概念"></a>一）概念</h2><p>内存中的一个存储区域</p>
+<p>该区域的数据可以在同一类型范围内不断变化</p>
+<p>变量是程序中最基本的存储单元。包含变量类型、变量名和存储的值</p>
+<h2 id="二）变量的作用"><a href="#二）变量的作用" class="headerlink" title="二）变量的作用"></a>二）变量的作用</h2><p>用于在内存中保存数据</p>
+<h2 id="三）使用变量注意"><a href="#三）使用变量注意" class="headerlink" title="三）使用变量注意"></a>三）使用变量注意</h2><p>Java中每个变量必须先声明，后使用</p>
+<p>使用变量 名来访问这块区域的数据</p>
+<p>变量的作用域：其定义所在的一对{}内</p>
+<p>变量只有在其作用域内才有效</p>
+<p>同一个作用域内，不能定义重名的变量</p>
+<h2 id="四）变量的使用"><a href="#四）变量的使用" class="headerlink" title="四）变量的使用"></a>四）变量的使用</h2><p>Java定义变量的格式：数据类型 变量名 = 变量值</p>
+<p>变量必须先声明后使用</p>
+<p>变量都定义在其作用域内。在作用域内有效。</p>
+<p>同一个作用域内，不可以声明两个同名的变量</p>
+<h2 id="五）变量的分类"><a href="#五）变量的分类" class="headerlink" title="五）变量的分类"></a>五）变量的分类</h2><h3 id="1-变量按照数据类型"><a href="#1-变量按照数据类型" class="headerlink" title="1.变量按照数据类型"></a>1.变量按照数据类型</h3><h4 id="1-1基本数据类型"><a href="#1-1基本数据类型" class="headerlink" title="1.1基本数据类型"></a>1.1基本数据类型</h4><h5 id="数值型（整数byte-1个字节、short-2个字节、int-4个字节、long-8个字节-浮点数float-4字节、double-8字节）"><a href="#数值型（整数byte-1个字节、short-2个字节、int-4个字节、long-8个字节-浮点数float-4字节、double-8字节）" class="headerlink" title="数值型（整数byte-1个字节、short-2个字节、int-4个字节、long-8个字节+浮点数float-4字节、double-8字节）"></a>数值型（整数byte-1个字节、short-2个字节、int-4个字节、long-8个字节+浮点数float-4字节、double-8字节）</h5><p>Java各整数类型有固定的表示范围和字段长度，不受具体的os的影响，以保证Java程序的可移植性</p>
+<p>Java的整型常量默认为int，声明long型常量后需加’l‘或’L‘</p>
+<p>Java程序中变量通常声明为int型，除非不能表示较大的数，才使用long</p>
+<p><strong>byte：</strong></p>
+<ul>
+<li>byte 数据类型是8位、有符号的，以二进制补码表示的整数；</li>
+<li>最小值是 <strong>-128（-2^7）</strong>；</li>
+<li>最大值是 <strong>127（2^7-1）</strong>；</li>
+<li>默认值是 <strong>0</strong>；</li>
+<li>byte 类型用在大型数组中节约空间，主要代替整数，因为 byte 变量占用的空间只有 int 类型的四分之一；</li>
+<li>例子：byte a = 100，byte b = -50。</li>
+</ul>
+<p><strong>short：</strong></p>
+<ul>
+<li>short 数据类型是 16 位、有符号的以二进制补码表示的整数</li>
+<li>最小值是 <strong>-32768（-2^15）</strong>；</li>
+<li>最大值是 <strong>32767（2^15 - 1）</strong>；</li>
+<li>Short 数据类型也可以像 byte 那样节省空间。一个short变量是int型变量所占空间的二分之一；</li>
+<li>默认值是 <strong>0</strong>；</li>
+<li>例子：short s = 1000，short r = -20000。</li>
+</ul>
+<p><strong>int：</strong></p>
+<ul>
+<li>int 数据类型是32位、有符号的以二进制补码表示的整数；</li>
+<li>最小值是 <strong>-2,147,483,648（-2^31）</strong>；</li>
+<li>最大值是 <strong>2,147,483,647（2^31 - 1）</strong>；</li>
+<li>一般地整型变量默认为 int 类型；</li>
+<li>默认值是 <strong>0</strong> ；</li>
+<li>例子：int a = 100000, int b = -200000。</li>
+</ul>
+<p><strong>long：</strong></p>
+<ul>
+<li>long 数据类型是 64 位、有符号的以二进制补码表示的整数；</li>
+<li>最小值是 <strong>-9,223,372,036,854,775,808（-2^63）</strong>；</li>
+<li>最大值是 <strong>9,223,372,036,854,775,807（2^63 -1）</strong>；</li>
+<li>这种类型主要使用在需要比较大整数的系统上；</li>
+<li>默认值是 <strong>0L</strong>；</li>
+<li>例子： long a = 100000L，Long b = -200000L。<br>“L”理论上不分大小写，但是若写成”l”容易与数字”1”混淆，不容易分辩。所以最好大写。</li>
+</ul>
+<p><strong>float：</strong>单精度</p>
+<ul>
+<li>float 数据类型是单精度、32位、符合IEEE 754标准的浮点数；</li>
+<li>float 在储存大型浮点数组的时候可节省内存空间；</li>
+<li>float表示数值的范围比long还大</li>
+<li>默认值是 <strong>0.0f</strong>；</li>
+<li>浮点数不能用来表示精确的值，如货币；</li>
+<li>例子：float f1 = 234.5f。</li>
+</ul>
+<p><strong>double：双精度</strong></p>
+<ul>
+<li>double 数据类型是双精度、64 位、符合IEEE 754标准的浮点数；</li>
+<li>浮点数的默认类型为double类型；</li>
+<li>double类型同样不能表示精确的值，如货币；</li>
+<li>默认值是 <strong>0.0d</strong>；</li>
+<li>例子：double d1 = 123.4。</li>
+</ul>
+<h5 id="字符型char"><a href="#字符型char" class="headerlink" title="字符型char"></a>字符型char</h5><p> 用来表示通常意义上的字符-2字节</p>
+<p>一个字符可以存储一个字母，一个汉字，或其他一个字符</p>
+<p>字符型变量的三种表现形式</p>
+<p>1.’’</p>
+<p>2.允许使用转义符’\‘将其后的字符变为特殊字符型常量</p>
+<p>3.直接使用Unicode值来表示字符型常量。\u000a表示\n</p>
+<p>char类型均可进行运算</p>
+<h5 id="布尔型boolean"><a href="#布尔型boolean" class="headerlink" title="布尔型boolean"></a>布尔型boolean</h5><p>只有两个值，true false</p>
+<p>常常在条件判断和循环结构中使用</p>
+<h4 id="1-2引用数据类型"><a href="#1-2引用数据类型" class="headerlink" title="1.2引用数据类型"></a>1.2引用数据类型</h4><p>类class(字符串)</p>
+<p>接口interface</p>
+<p>数组[ ]</p>
+<h3 id="2-变量按照声明的位置分类"><a href="#2-变量按照声明的位置分类" class="headerlink" title="2.变量按照声明的位置分类"></a>2.变量按照声明的位置分类</h3><p>成员变量</p>
+<p>局部变量 </p>
+<h2 id="六）基本数据之间的-运算规则（除了布尔类型）"><a href="#六）基本数据之间的-运算规则（除了布尔类型）" class="headerlink" title="六）基本数据之间的 运算规则（除了布尔类型）"></a>六）基本数据之间的 运算规则（除了布尔类型）</h2><p>小转大自动，大转小强制</p>
+<h3 id="1-自动类型提升"><a href="#1-自动类型提升" class="headerlink" title="1.自动类型提升"></a>1.自动类型提升</h3><p>容量小的数据类型变量与容量大的数据类型的变量做运算时，结果自动提升为大容量的数据类型（容量大小指的是表示数的范围大和小）</p>
+<p>byte/char/short -&gt; int -&gt; long -&gt; float -&gt; double</p>
+<p>特别的，当byte、char、short三种类型的变量做运算时，结果为int型</p>
+<h3 id="2-强制类型转化"><a href="#2-强制类型转化" class="headerlink" title="2.强制类型转化"></a>2.强制类型转化</h3><p>自动提升运算的逆运算</p>
+<p>1.需要使用强转符（）</p>
+<p>2.注意：强制类型转换，可能导致精度损失</p>
+<h3 id="3-两个特殊情况"><a href="#3-两个特殊情况" class="headerlink" title="3.两个特殊情况"></a>3.两个特殊情况</h3><p>1.编码情况</p>
+<p>要编译long型，数字后边必须增加l；编译float，必须加f</p>
+<p>2.编译情况2</p>
+<p>整型常量，默认为int型；浮点型常量，默认类型为double型</p>
+<h2 id="七）字符串类型：String"><a href="#七）字符串类型：String" class="headerlink" title="七）字符串类型：String"></a>七）字符串类型：String</h2><p>String不是基本数据类型，属于引用数据类型</p>
+<p>声明string类型变量时，使用 “ ”（必须用双引号嗷）</p>
+<p>string可以和8种数据类型变量做运算，且运算只能是连接运算+</p>
+<h2 id="八）进制与进制之间的转化"><a href="#八）进制与进制之间的转化" class="headerlink" title="八）进制与进制之间的转化"></a>八）进制与进制之间的转化</h2><p>所有数字在计算机底层都以二进制形式存在</p>
+<p>整数有四种表示方式：二进制、十进制、八进制、十六进制</p>
 
             </div>
             <hr>
@@ -491,6 +601,12 @@
                 <div class="post-prevnext">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/2021/01/21/%E7%AC%AC%E5%9B%9B%E5%A4%A9%E2%80%94%E2%80%94Java%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">第四天——Java基本语法</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">
