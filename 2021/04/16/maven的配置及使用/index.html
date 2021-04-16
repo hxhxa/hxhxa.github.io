@@ -192,7 +192,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      114 字
+      591 字
     </span>
   
 
@@ -202,7 +202,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      6
        分钟
     </span>
   
@@ -244,21 +244,40 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：2021年4月16日 中午
+                  本文最后更新于：2021年4月16日 下午
                 
               </p>
             
             <div class="markdown-body">
-              <h1 id="一、安装maven"><a href="#一、安装maven" class="headerlink" title="一、安装maven"></a>一、安装maven</h1><p>1.在官网中下载maven</p>
-<p><a target="_blank" rel="noopener" href="http://maven.apache.org/download.cgi">http://maven.apache.org/download.cgi</a></p>
-<p>选择<img src="C:\Users\贺昕贺昕贺昕呀\Desktop\1.jpg" srcset="/img/loading.gif">进行安装</p>
-<p>2.将下载好的文件进行解压缩，记住下载地址</p>
-<p>需要解压到一个非中文无空格的目录下。</p>
-<p>3.配置变量环境</p>
-<p>在系统环境中添加MAVEN_HOME变量，地址为解压缩地址（是打开解压缩文件的那个地址）</p>
-<p><img src="C:\Users\贺昕贺昕贺昕呀\Desktop\2.png" srcset="/img/loading.gif"></p>
+              <h1 id="一、安装maven"><a href="#一、安装maven" class="headerlink" title="一、安装maven"></a>一、安装maven</h1><h2 id="1-在官网中下载maven"><a href="#1-在官网中下载maven" class="headerlink" title="1.在官网中下载maven"></a>1.在官网中下载maven</h2><p><a target="_blank" rel="noopener" href="http://maven.apache.org/download.cgi">http://maven.apache.org/download.cgi</a></p>
+<p>选择<img src="D:\myblog\source\img\1.jpg" srcset="/img/loading.gif">进行安装</p>
+<h2 id="2-将下载好的文件进行解压缩，记住下载地址"><a href="#2-将下载好的文件进行解压缩，记住下载地址" class="headerlink" title="2.将下载好的文件进行解压缩，记住下载地址"></a>2.将下载好的文件进行解压缩，记住下载地址</h2><p>需要解压到一个非中文无空格的目录下。</p>
+<h2 id="3-配置变量环境"><a href="#3-配置变量环境" class="headerlink" title="3.配置变量环境"></a>3.配置变量环境</h2><p>在系统环境中添加MAVEN_HOME变量，地址为解压缩地址（是打开解压缩文件的那个地址）</p>
+<p><img src="D:\myblog\source\img\2.png" srcset="/img/loading.gif"></p>
 <p>在系统环境中找到path，在里边新加%MAVEN_HOME%\bin</p>
-<p><img src="C:\Users\贺昕贺昕贺昕呀\Desktop\1618545511(1).png" srcset="/img/loading.gif"></p>
+<p><img src="D:\myblog\source\img\1618545511(1).png" srcset="/img/loading.gif"></p>
+<h2 id="4-检查是否安装成功"><a href="#4-检查是否安装成功" class="headerlink" title="4.检查是否安装成功"></a>4.检查是否安装成功</h2><p>win+R，cmd，输入mvn -v，查看是否安装成功</p>
+<p><img src="C:\Users\贺昕贺昕贺昕呀\AppData\Roaming\Typora\typora-user-images\image-20210416160250361.png" srcset="/img/loading.gif" alt="image-20210416160250361"></p>
+<h1 id="二、配置本地仓库和阿里云镜像"><a href="#二、配置本地仓库和阿里云镜像" class="headerlink" title="二、配置本地仓库和阿里云镜像"></a>二、配置本地仓库和阿里云镜像</h1><h2 id="1-配置本地仓库"><a href="#1-配置本地仓库" class="headerlink" title="1.配置本地仓库"></a>1.配置本地仓库</h2><h3 id="1）为什么要配置本地仓库"><a href="#1）为什么要配置本地仓库" class="headerlink" title="1）为什么要配置本地仓库"></a>1）为什么要配置本地仓库</h3><p>maven的核心程序并不包含具体功能，仅负责宏观调度。具体功能由插件来完成。maven的核心程序会到本地仓库中查找插件。如果本地仓库中没有就会从远程仓库下载。此时如果不能上网则无法执行maven的具体功能。为了解决这个问题，我们可以将maven的本地仓库指向一个在联网情况下下载好的目录。</p>
+<h3 id="2）目录"><a href="#2）目录" class="headerlink" title="2）目录"></a>2）目录</h3><p>maven默认的本地仓库：~.m2\repository目录</p>
+<p>~当前用户的主目录</p>
+<h3 id="3）修改仓库为本地地址"><a href="#3）修改仓库为本地地址" class="headerlink" title="3）修改仓库为本地地址"></a>3）修改仓库为本地地址</h3><p>打开D:\maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\conf（即maven所下载的目录），选择settings.xml</p>
+<p>找到第一块注释下边的本地仓库，添加新的标签，并输入本地仓库的地址。</p>
+<p><img src="C:\Users\贺昕贺昕贺昕呀\AppData\Roaming\Typora\typora-user-images\image-20210416161512467.png" srcset="/img/loading.gif" alt="image-20210416161512467"></p>
+<h2 id="2-配置阿里云镜像"><a href="#2-配置阿里云镜像" class="headerlink" title="2.配置阿里云镜像"></a>2.配置阿里云镜像</h2><h3 id="1）why"><a href="#1）why" class="headerlink" title="1）why"></a>1）why</h3><p>为了下载jar包方便，</p>
+<h3 id="2）操作"><a href="#2）操作" class="headerlink" title="2）操作"></a>2）操作</h3><p>在maven的核心配置文件setting.xml文件的标签里配置</p>
+<p><img src="C:\Users\贺昕贺昕贺昕呀\AppData\Roaming\Typora\typora-user-images\image-20210416162110558.png" srcset="/img/loading.gif" alt="image-20210416162110558"></p>
+<h1 id="三、在idea中使用maven"><a href="#三、在idea中使用maven" class="headerlink" title="三、在idea中使用maven"></a>三、在idea中使用maven</h1><p>IDEA中自带maven插件，可以使用自带的，也可以使用配置的。</p>
+<h2 id="1-配置maven插件"><a href="#1-配置maven插件" class="headerlink" title="1.配置maven插件"></a>1.配置maven插件</h2><h3 id="1）配置"><a href="#1）配置" class="headerlink" title="1）配置"></a>1）配置</h3><h4 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h4><p>在idea的setting中，找到maven，进行配置，修改配置三处内容。</p>
+<p><img src="C:\Users\贺昕贺昕贺昕呀\AppData\Roaming\Typora\typora-user-images\image-20210416163546126.png" srcset="/img/loading.gif" alt="image-20210416163546126"></p>
+<h4 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h4><p>在maven的下一个菜单有importing菜单</p>
+<p>里边有一个import maven projects automatically这个选项需要画勾，我的idea里边没有这一个选项</p>
+<p>配置完成，就是使用本地的仓库了</p>
+<h3 id="2）idea自带的maven在idea的安装目录的plugins目录中"><a href="#2）idea自带的maven在idea的安装目录的plugins目录中" class="headerlink" title="2）idea自带的maven在idea的安装目录的plugins目录中"></a>2）idea自带的maven在idea的安装目录的plugins目录中</h3><p>找到idea自带的maven文件，和上述步骤一样，进行配置</p>
+<p>D:\IntelliJ IDEA 2020.3.1\plugins\maven\lib\maven3</p>
+<h2 id="2-在idea中创建maven项目"><a href="#2-在idea中创建maven项目" class="headerlink" title="2.在idea中创建maven项目"></a>2.在idea中创建maven项目</h2><p>选择创建module—–maven———1.8——不勾选</p>
+<p><img src="C:\Users\贺昕贺昕贺昕呀\AppData\Roaming\Typora\typora-user-images\image-20210416165036131.png" srcset="/img/loading.gif" alt="image-20210416165036131"></p>
+<p><img src="C:\Users\贺昕贺昕贺昕呀\AppData\Roaming\Typora\typora-user-images\image-20210416165414379.png" srcset="/img/loading.gif" alt="image-20210416165414379"></p>
 
             </div>
             <hr>
