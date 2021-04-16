@@ -4,6 +4,56 @@
   
   
   <entry>
+    <title>maven的配置及使用</title>
+    <link href="/2021/04/16/maven%E7%9A%84%E9%85%8D%E7%BD%AE%E5%8F%8A%E4%BD%BF%E7%94%A8/"/>
+    <url>/2021/04/16/maven%E7%9A%84%E9%85%8D%E7%BD%AE%E5%8F%8A%E4%BD%BF%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<h1 id="一、安装maven"><a href="#一、安装maven" class="headerlink" title="一、安装maven"></a>一、安装maven</h1><p>1.在官网中下载maven</p><p><a href="http://maven.apache.org/download.cgi">http://maven.apache.org/download.cgi</a></p><p>选择<img src="C:\Users\贺昕贺昕贺昕呀\Desktop\1.jpg">进行安装</p><p>2.将下载好的文件进行解压缩，记住下载地址</p><p>需要解压到一个非中文无空格的目录下。</p><p>3.配置变量环境</p><p>在系统环境中添加MAVEN_HOME变量，地址为解压缩地址（是打开解压缩文件的那个地址）</p><p><img src="C:\Users\贺昕贺昕贺昕呀\Desktop\2.png"></p><p>在系统环境中找到path，在里边新加%MAVEN_HOME%\bin</p><p><img src="C:\Users\贺昕贺昕贺昕呀\Desktop\1618545511(1).png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>back-end</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>一些工具的使用</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Spring学习第一天</title>
+    <link href="/2021/04/16/Spring%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
+    <url>/2021/04/16/Spring%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
+    
+    <content type="html"><![CDATA[<h1 id="一、课程内容介绍"><a href="#一、课程内容介绍" class="headerlink" title="一、课程内容介绍"></a>一、课程内容介绍</h1><p>1.spring概念</p><p>2.ioc容量</p><p>3.Aop</p><p>4.JdbcTemplate</p><p>5.事务管理</p><p>6.spring的新特性</p><h1 id="二、spring框架的基本概述"><a href="#二、spring框架的基本概述" class="headerlink" title="二、spring框架的基本概述"></a>二、spring框架的基本概述</h1><h2 id="1-Spring是轻量级的开源的Java-EE框架"><a href="#1-Spring是轻量级的开源的Java-EE框架" class="headerlink" title="1.Spring是轻量级的开源的Java EE框架"></a>1.Spring是轻量级的开源的Java EE框架</h2><h2 id="2-可以解决企业应用开发的复杂性"><a href="#2-可以解决企业应用开发的复杂性" class="headerlink" title="2.可以解决企业应用开发的复杂性"></a>2.可以解决企业应用开发的复杂性</h2><h2 id="3-Spring有两个核心部分：IOC和Aop"><a href="#3-Spring有两个核心部分：IOC和Aop" class="headerlink" title="3.Spring有两个核心部分：IOC和Aop"></a>3.Spring有两个核心部分：IOC和Aop</h2><p>1）IOC：控制反转，把创建对象的过程交给Spring进行管理。</p><p>2）Aop：面向切面，不修改源代码进行功能增强。</p><h2 id="4-Spring特点"><a href="#4-Spring特点" class="headerlink" title="4.Spring特点"></a>4.Spring特点</h2><p>1）方便解耦，简化开发</p><p>2）Aop编程的支持</p><p>3）方便程序的测试</p><p>4）方便集成各种框架，方便和其他框架进行整合</p><p>5）方便进行事务操作</p><p>6）降低API的开发难度</p><h1 id="三-Spring的入门案例"><a href="#三-Spring的入门案例" class="headerlink" title="三.Spring的入门案例"></a>三.Spring的入门案例</h1><p>1.下载spring5</p><p>1）课程中的最稳定版本是5.2.6</p><p>但是现在最新的版本是5.3.6</p><p>2）下载地址</p><p>2.打开idea，创建Java工程</p><p>3.导入spring5的相关jar包</p><p>1）Core Container</p><p>Beans，Core，Context，Expression（ioc基本包）+logging包</p><p>2）在项目中创建lib</p><p>将上述所说的五个包复制到lib文件夹内部</p><p>4.创建普通类，在普通类里创建普通方法</p><p>5.创建spring配置文件，在配置文件配置创建的对象</p><p>1）Spring配置文件使用xml格式文件</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>back-end</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>spring学习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>关于hexo博客的优化</title>
     <link href="/2021/04/03/%E5%85%B3%E4%BA%8Ehexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%BC%98%E5%8C%96/"/>
     <url>/2021/04/03/%E5%85%B3%E4%BA%8Ehexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%BC%98%E5%8C%96/</url>
