@@ -4,11 +4,24 @@
   
   
   <entry>
+    <title>关于毕设出现的问题汇总</title>
+    <link href="/2021/04/29/%E5%85%B3%E4%BA%8E%E6%AF%95%E8%AE%BE%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/"/>
+    <url>/2021/04/29/%E5%85%B3%E4%BA%8E%E6%AF%95%E8%AE%BE%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/</url>
+    
+    <content type="html"><![CDATA[<p>..</p><p>1.</p><p>在pom文件报错，此时需要增加spring boot的版本号</p><p><img src="/.com//myblog\source_posts\关于毕设出现的问题汇总\1.png"></p><p>插入版本号后解决该问题</p><p><img src="/.com//myblog\source_posts\关于毕设出现的问题汇总\2.png"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>关于写毕设的磨洋工之流水账</title>
     <link href="/2021/04/27/%E5%85%B3%E4%BA%8E%E5%86%99%E6%AF%95%E8%AE%BE%E7%9A%84%E7%A3%A8%E6%B4%8B%E5%B7%A5%E4%B9%8B%E6%B5%81%E6%B0%B4%E8%B4%A6/"/>
     <url>/2021/04/27/%E5%85%B3%E4%BA%8E%E5%86%99%E6%AF%95%E8%AE%BE%E7%9A%84%E7%A3%A8%E6%B4%8B%E5%B7%A5%E4%B9%8B%E6%B5%81%E6%B0%B4%E8%B4%A6/</url>
     
-    <content type="html"><![CDATA[<h1 id="2021-4-27"><a href="#2021-4-27" class="headerlink" title="2021.4.27"></a>2021.4.27</h1><h2 id="15：55"><a href="#15：55" class="headerlink" title="15：55"></a>15：55</h2><p>打开电脑，打开网易云音乐，打开毕业设计论文要求，打开wps</p><h2 id="16：00"><a href="#16：00" class="headerlink" title="16：00"></a>16：00</h2><p>打开chrome，研究是用在线画图好用还是用typora画图好用</p><h2 id="16：30"><a href="#16：30" class="headerlink" title="16：30"></a>16：30</h2><p>打开参考的项目，发呆，研究别人是咋做的</p><h2 id="16：48"><a href="#16：48" class="headerlink" title="16：48"></a>16：48</h2><p>开始打开开题报告，通过开题报告复制到论文</p><h2 id="17：52"><a href="#17：52" class="headerlink" title="17：52"></a>17：52</h2><p>顺利将开题报告的部分搞到论文那里，没有修改格式，大概有五千字，但是都是专业名词解释之类的，可能查重会全部标红</p><p><img src="/.com//myblog\source_posts\关于写毕设的磨洋工之流水账@6IS_">HH0A@L%QTE7]{}2$V.png)</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="2021-4-27"><a href="#2021-4-27" class="headerlink" title="2021.4.27"></a>2021.4.27</h1><h2 id="15：55"><a href="#15：55" class="headerlink" title="15：55"></a>15：55</h2><p>打开电脑，打开网易云音乐，打开毕业设计论文要求，打开wps</p><h2 id="16：00"><a href="#16：00" class="headerlink" title="16：00"></a>16：00</h2><p>打开chrome，研究是用在线画图好用还是用typora画图好用</p><h2 id="16：30"><a href="#16：30" class="headerlink" title="16：30"></a>16：30</h2><p>打开参考的项目，发呆，研究别人是咋做的</p><h2 id="16：48"><a href="#16：48" class="headerlink" title="16：48"></a>16：48</h2><p>开始打开开题报告，通过开题报告复制到论文</p><h2 id="17：52"><a href="#17：52" class="headerlink" title="17：52"></a>17：52</h2><p>顺利将开题报告的部分搞到论文那里，没有修改格式，大概有五千字，但是都是专业名词解释之类的，可能查重会全部标红</p><p><img src="/.com//myblog\source_posts\关于写毕设的磨洋工之流水账\1.png"></p><h1 id="2021-4-28"><a href="#2021-4-28" class="headerlink" title="2021.4.28"></a>2021.4.28</h1><h2 id="14：34"><a href="#14：34" class="headerlink" title="14：34"></a>14：34</h2><p>坐在电脑跟前，耳机没电了，充耳机的时候顺带耍会儿手机</p><h2 id="15：54"><a href="#15：54" class="headerlink" title="15：54"></a>15：54</h2><p>买了个耳机，重新坐下</p><p>发现创建新项目没有spring选项，通过百度解决了问题</p><h2 id="15：57"><a href="#15：57" class="headerlink" title="15：57"></a>15：57</h2><p>继续新建一个项目，弄清楚了现在将spring基本都转到了spring initializr这一个选项中</p><h2 id="16：00-1"><a href="#16：00-1" class="headerlink" title="16：00"></a>16：00</h2><p>下载一个可视化mysql</p><h2 id="16：25"><a href="#16：25" class="headerlink" title="16：25"></a>16：25</h2><p>找到了破解版，正在下载，不知道能不能成功</p><p>发现电脑没有解压软件。。。。。。。。。。。</p><h2 id="16：37"><a href="#16：37" class="headerlink" title="16：37"></a>16：37</h2><p>好了，破解版已经安装完了，开始下一步的磨洋工。</p><h2 id="16：42"><a href="#16：42" class="headerlink" title="16：42"></a>16：42</h2><p>找了一个手把手spring boot项目，打算从头来过。</p><p>距离提交还有七天左右</p><p>哇哦</p><h1 id="2021-4-29"><a href="#2021-4-29" class="headerlink" title="2021.4.29"></a>2021.4.29</h1><h2 id="23：00"><a href="#23：00" class="headerlink" title="23：00"></a>23：00</h2><p>打开了电脑</p><h2 id="23：51"><a href="#23：51" class="headerlink" title="23：51"></a>23：51</h2><p>想起来以前有个前端，不知道还能不能用</p>]]></content>
     
     
     <categories>
